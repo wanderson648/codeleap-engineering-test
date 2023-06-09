@@ -68,4 +68,5 @@ Wanderson O da Silva 🎯
 Contact:
 
 - [Linkedin](https://www.linkedin.com/in/wanderso-oliveira/)
+- wandersonoliveira12345@gmail.com
 
