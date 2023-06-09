@@ -13,7 +13,7 @@ export function LoadingScreen() {
 
   setTimeout(() => {
     handleSignup()
-  }, 3000)
+  }, 4000)
 
   return (
     <Container>

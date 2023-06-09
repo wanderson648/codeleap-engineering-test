@@ -3,20 +3,21 @@ import styled from "styled-components"
 
 export const Container = styled.div`
   background: #fff;
+  width: 100%;
   height: 100vh;
 
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   
   img {
-    width: 500px;
-    height: 165px;    
+    margin-top: 12rem;
+    width: 600px;  
   }
 
   p {
     color: #999;
+    font-size: 1.5rem;
     animation: blink 1s steps(1, end) infinite;
 
     @keyframes blink {
@@ -35,8 +36,10 @@ export const Container = styled.div`
   @media (max-width: 667px) {
     img {
       width: 300px;
-      height: 165px;
     } 
+    p {
+      font-size: 1rem;
+    }
   }  
 `
 

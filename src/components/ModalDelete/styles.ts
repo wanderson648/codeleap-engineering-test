@@ -57,7 +57,7 @@ export const Content = styled(Dialog.Content)`
   }
 
   @media (max-width: 667px){
-    width: 480px;
+    width: 580px;
   }
 `;
 

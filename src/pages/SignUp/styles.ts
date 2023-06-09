@@ -12,7 +12,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 500px;
-  height: 205px;
+  height: 200px;
 
   display: flex;
   flex-direction: column;
@@ -21,8 +21,7 @@ export const Content = styled.div`
   position: relative;
   background: #FFF;
   border: 1px solid #CCC;
-
-  
+  margin-bottom: 5rem;  
 
   strong {
     width: 313px;
