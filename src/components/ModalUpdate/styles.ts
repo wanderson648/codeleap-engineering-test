@@ -5,15 +5,21 @@ import * as Dialog from '@radix-ui/react-dialog';
 export const Overlay = styled(Dialog.Overlay)`
   position: fixed;
   width: 100vw;
-  height: 100vh;
   inset: 0;
   background: rgba(119, 119, 119, 0.8);
+
+  @media (max-width: 870px) {
+    width: 100%;
+  }
+
+  @media (max-width: 667px) {
+    width: 100%;
+  }
 `;
 
 export const Title = styled(Dialog.Title)`
   margin-top: 0;
 `
-
 
 export const Content = styled(Dialog.Content)`
   width: 600px;
@@ -64,11 +70,11 @@ export const Content = styled(Dialog.Content)`
   }
 
   @media (max-width: 870px) {
-    width: 480px;
+    width: 580px;
   }
 
   @media (max-width: 667px) {
-    width: 380px;
+    width: 480px;
   }
 `;
 

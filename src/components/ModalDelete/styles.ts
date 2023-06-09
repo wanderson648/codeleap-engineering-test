@@ -6,9 +6,16 @@ import styled from "styled-components"
 export const Overlay = styled(Dialog.Overlay)`
   position: fixed;
   width: 100vw;
-  height: 100vh;
   inset: 0;
   background: rgba(119, 119, 119, 0.8);
+
+  @media (max-width: 870px) {
+    width: 100%;
+  }
+
+  @media (max-width: 667px) {
+    width: 100%;
+  }
 `;
 
 export const Title = styled(Dialog.Title)`
@@ -20,12 +27,17 @@ export const Title = styled(Dialog.Title)`
   line-height: 1.6;
 
   @media (max-width: 870px){
-    font-size: 0.875rem;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width: 870px){
+    font-size: 1.2rem;
   }
 `
 
 
 export const Content = styled(Dialog.Content)`
+  width: 600px;
   height: 146px;
   border-radius: 6px;
   padding: 1.5rem;
@@ -41,11 +53,11 @@ export const Content = styled(Dialog.Content)`
   transform: translate(-50%, -50%);
 
   @media (max-width: 870px){
-    width: 380px;
+    width: 580px;
   }
 
   @media (max-width: 667px){
-    width: 380px;
+    width: 480px;
   }
 `;
 
